@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "216795201650",
+    "firebase_url": "https://cryptochat-82cb1.firebaseio.com",
+    "project_id": "cryptochat-82cb1",
+    "storage_bucket": "cryptochat-82cb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216795201650:android:6e0979f0b533f8f9",
+        "android_client_info": {
+          "package_name": "tk.sreeharis.cryptochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216795201650-34g6fr25vqj769v7eq448jau12jboqt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.sreeharis.cryptochat",
+            "certificate_hash": "81c635e33fcfa79b40037d389cc3141e853e1176"
+          }
+        },
+        {
+          "client_id": "216795201650-8klvtp9m5bvda68l6ctmhsrldjimimt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhQ-CkGBAJ0VKtQU9okylVYqWjaZZte0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216795201650-8klvtp9m5bvda68l6ctmhsrldjimimt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

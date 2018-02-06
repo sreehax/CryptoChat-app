@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tk.sreeharis.cryptochat.CreateGroup">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="999dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Create a chat group for use in CryptoChat." />
+
+    <EditText
+        android:id="@+id/groupName"
+        android:layout_width="999dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Group Name" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="999dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/groupName"
+        android:ems="10"
+        android:hint="Group Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmpass"
+        android:layout_width="999dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pass"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Confirm Group Password" />
+    <EditText
+        android:id="@+id/listusernames"
+        android:layout_width="999dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/confirmpass"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:hint="Usernames" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/confirmpass"
+        android:layout_marginTop="38dp"
+        android:text=" Seperate usernames with one space." />
+
+    <Button
+        android:id="@+id/submit_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:text="Create" />
+
+</RelativeLayout>

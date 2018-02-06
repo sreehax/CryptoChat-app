@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fab_group"
+        android:icon="@drawable/ic_account_multiple_plus"
+        android:title="New Group" />
+
+    <item
+        android:id="@+id/fab_person"
+        android:icon="@drawable/ic_account_plus"
+        android:title="New Chat" />
+</menu>
